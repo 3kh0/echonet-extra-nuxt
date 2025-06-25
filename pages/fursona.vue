@@ -79,7 +79,7 @@ const parse = (credits) => {
           <div class="md:col-span-1 rounded-lg shadow-md overflow-hidden border border-zinc-800">
             <div class="p-0 m-0">
               <!-- eslint-disable-next-line vue/html-self-closing -->
-              <img src="//wsrv.nl/?url=extra.3kh0.net/img/art/xmr_hoodie.png&w=371&h=371" alt="Echo the Fox" class="w-full h-auto rounded-lg" />
+              <img src="/img/art/xmr_hoodie_small.png" alt="Echo the Fox" class="w-full h-auto rounded-lg" />
             </div>
             <div class="m-4">
               <ul>
@@ -132,10 +132,16 @@ const parse = (credits) => {
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div v-for="artwork in artworks" :key="artwork.file" class="group rounded-lg shadow-md border border-zinc-800 overflow-hidden">
             <a :href="`/img/art/${artwork.file}.png`" target="_blank" class="block relative">
-              <!-- eslint-disable-next-line vue/html-self-closing -->
-              <img :src="`https://wsrv.nl/?url=extra.3kh0.net/img/art/${artwork.file}.png?bust&w=500&h=500&fit=cover&output=png`" :alt="artwork.title" class="w-full h-auto transition-transform duration-300 group-hover:scale-95 rounded-lg" />
-              <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
-                <span class="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-medium">View full image</span>
+              <div class="aspect-square w-full flex items-center justify-center bg-zinc-900 overflow-hidden relative">
+                <!-- eslint-disable-next-line vue/html-self-closing -->
+                <img
+                  :src="`/img/art/${artwork.file}.png`"
+                  :alt="artwork.title"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-95"
+                />
+                <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                  <span class="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-medium">View full image</span>
+                </div>
               </div>
             </a>
             <div class="p-3">
