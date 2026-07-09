@@ -97,7 +97,10 @@ const parse = (credits) => {
             <Alert class="h-full">
               <AlertTitle>About</AlertTitle>
               <AlertDescription>
-                <div>Echo is an orange fox who usually wears a sweatshirt with the occasional T-shirt. Common designs include the <a class="font-semibold text-blue-500" target="_blank" href="https://web.getmonero.org/press-kit/">Monero logo</a> and the <a class="font-semibold text-blue-500" target="_blank" href="https://efimero.github.io/xenia-images/cathodegaytube1.jpg">Xenia Linux T-shirt</a>. His design is quite basic but leaves room for artists to make their own interpretation of how he should look.</div>
+                <div>
+                  Echo is an orange fox who usually wears a sweatshirt with the occasional T-shirt. Common designs include the <a class="font-semibold text-blue-500" target="_blank" href="https://web.getmonero.org/press-kit/">Monero logo</a> and the
+                  <a class="font-semibold text-blue-500" target="_blank" href="https://efimero.github.io/xenia-images/cathodegaytube1.jpg">Xenia Linux T-shirt</a>. His design is quite basic but leaves room for artists to make their own interpretation of how he should look.
+                </div>
               </AlertDescription>
               <AlertTitle class="my-2">A few notes</AlertTitle>
               <AlertDescription
@@ -134,11 +137,7 @@ const parse = (credits) => {
             <a :href="`/img/art/${artwork.file}.png`" target="_blank" class="block relative">
               <div class="aspect-square w-full flex items-center justify-center bg-zinc-900 overflow-hidden relative">
                 <!-- eslint-disable-next-line vue/html-self-closing -->
-                <img
-                  :src="`/img/art/${artwork.file}.png`"
-                  :alt="artwork.title"
-                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-95"
-                />
+                <img :src="`/img/art/${artwork.file}.png`" :alt="artwork.title" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-95" />
                 <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
                   <span class="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-medium">View full image</span>
                 </div>

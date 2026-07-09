@@ -7,7 +7,7 @@ console.log(`current commit: ${cmSha}`); //debug
 
 export default defineNuxtConfig({
   title: "Echo Net Extras",
-  modules: ["@nuxtjs/tailwindcss", "shadcn-nuxt", "@nuxt/image", "@nuxt/eslint"],
+  modules: ["@nuxtjs/tailwindcss", "shadcn-nuxt", "@nuxt/image"],
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {

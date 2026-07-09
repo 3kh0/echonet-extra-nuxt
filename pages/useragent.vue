@@ -123,7 +123,7 @@ const getOSDetails = (ua) => {
     case "Mac OS":
     case "Mac OS X":
     case "Android":
-      osver = /(?:Android|Mac OS|Mac OS X|MacPPC|MacIntel|Mac_PowerPC|Macintosh) ([\.\_\d]+)/.exec(ua)[1];
+      osver = /(?:Android|Mac OS|Mac OS X|MacPPC|MacIntel|Mac_PowerPC|Macintosh) ([._\d]+)/.exec(ua)[1];
       break;
 
     case "iOS":

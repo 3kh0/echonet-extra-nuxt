@@ -50,7 +50,9 @@ onMounted(async () => {
   <div class="flex-grow p-2 rounded-lg overflow-auto hide-scrollbar">
     <h1 class="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">Browser Info</h1>
     <div v-if="loading" class="flex justify-center items-center h-full">
-      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 16 16" class="motion-safe:animate-spin-fast"><path fill="#fff" d="M8 0A8 8 0 0 0 .002 7.812C.094 4.033 2.968 1 6.5 1C10.09 1 13 4.134 13 8a1.5 1.5 0 0 0 3 0a8 8 0 0 0-8-8m0 16a8 8 0 0 0 7.998-7.812C15.906 11.967 13.032 15 9.5 15C5.91 15 3 11.866 3 8a1.5 1.5 0 0 0-3 0a8 8 0 0 0 8 8" /></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 16 16" class="motion-safe:animate-spin-fast">
+        <path fill="#fff" d="M8 0A8 8 0 0 0 .002 7.812C.094 4.033 2.968 1 6.5 1C10.09 1 13 4.134 13 8a1.5 1.5 0 0 0 3 0a8 8 0 0 0-8-8m0 16a8 8 0 0 0 7.998-7.812C15.906 11.967 13.032 15 9.5 15C5.91 15 3 11.866 3 8a1.5 1.5 0 0 0-3 0a8 8 0 0 0 8 8" />
+      </svg>
     </div>
     <div v-else>
       <ul class="my-6 ml-6 list-disc [&>li]:mt-2">
