@@ -89,13 +89,13 @@ import {
 const cryptos = [
   { name: "Monero", address: "43LSJpZ6Le84eMiLTmMwZgTDMxtPthDh8Cdk1HWuLAx9itTgj8YqLbGE7hFYXSR6p6YVP8g4TMWxDiQTDnHW1VHMAb6YDrH", image: "/svg/xmr.svg" },
   { name: "Ethereum", address: "0x4a31EBD5A93334ba99CAE15dd1411c7a3E0214B6", image: "/svg/eth.svg", networks: ["eth", "base", "polygon", "op", "avax"] },
-  { name: "Litecoin", address: "ltc1qthzg52yvpeznqaudu62stml2w85pfrvrfklm4f", image: "/svg/ltc.svg" },
-  { name: "Bitcoin", address: "3CsXfnKicmrkDyoFKLm9KfVUjqXJxXN77N", image: "/svg/btc.svg" },
-  { name: "Dogecoin", address: "DBhD3inJwU17gZo4FTaH7HsCBwe3iW3Fa4", image: "/svg/doge.svg" },
-  { name: "Bitcoin Cash", address: "qp2l3dp5adgy375t9pgeptw0cul2nw65pys295gzun", image: "/svg/bch.svg" },
+  { name: "Litecoin", address: "MGG5X2cC5Hhi9rD7bDtdPNHRRkCoqZpxrJ", image: "/svg/ltc.svg" },
+  { name: "Bitcoin", address: "33WimAtvLLmEREJBUS2wc8ev7tjmzCU2Mq", image: "/svg/btc.svg" },
+  { name: "Dogecoin", address: "DKikPqrCYz2DRRygYfVJs4Y4Y8QoiBmLTd", image: "/svg/doge.svg" },
+  { name: "Bitcoin Cash", address: "1Kqn7VQqKMpHFfPFbL9LP15YzcASXZ3KcF", image: "/svg/bch.svg" },
   { name: "Tron", address: "TSnh7sZQKUttsWupa7vhpp3ow1t16Z2p88", image: "/svg/trx.svg" },
   { name: "Solana", address: "7JnnjZfcNEoc6h3dRPw8zWFQQGoiMPtpMFNyDq9usPye", image: "/img/sol.png" },
-  { name: "Zcash", address: "t1Z5ZeB5YKxUcd7xY5rhUMMqmWsZhURWCK9", image: "/svg/zec.svg" },
+  { name: "Zcash", address: "t1byqomxEo7V5BvLGe2TTUCuHWJpfjwC1og", image: "/svg/zec.svg" },
   { name: "Ton", address: "UQDGhAIJhSzvRsS2p4J_4FzpEgBqUMiWGFUH7Dc--mNrtZ8W", image: "/svg/ton.svg" },
 ];
 
