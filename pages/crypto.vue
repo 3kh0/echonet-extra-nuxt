@@ -75,8 +75,6 @@ import { toast } from "vue-sonner";
 
 import {
   AlertDialog,
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  AlertDialogAction, // might be useful in the future
   AlertDialogCancel,
   AlertDialogContent,
   AlertDialogDescription,
