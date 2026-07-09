@@ -4,11 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
+    "build": "bun install --frozen-lockfile && nuxt build",
     "dev": "nuxt dev",
     "format": "oxfmt",
     "format:check": "oxfmt --check",
-    "generate": "nuxt generate",
+    "generate": "bun install --frozen-lockfile && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "oxlint",
